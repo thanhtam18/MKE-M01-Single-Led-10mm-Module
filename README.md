@@ -21,13 +21,13 @@ Mạch led đơn MKE-M01 10mm single LED module thuộc hệ sinh thái phần c
 
 ## Hình ảnh sản phẩm
 
-![MKE_S01_Ultrasonic](/image/MKE_M01_Single_Led_01.jpg)
+![MKE_M01_Single_Led](/image/MKE_M01_Single_Led_01.jpg)
 
-![MKE_S01_Ultrasonic](/image/MKE_M01_Single_Led_02.jpg)
+![MKE_M01_Single_Led](/image/MKE_M01_Single_Led_02.jpg)
 
 ## Kích thước sản phẩm
 
-![MKE_S01_Ultrasonic](/image/MKE_M01_Single_Led_03.jpg)
+![MKE_M01_Single_Led](/image/MKE_M01_Single_Led_03.jpg)
 
 ## Các chân tín hiệu
 
@@ -62,9 +62,9 @@ Digital In:
 ### Hướng dẫn sử dụng với Arduino (Code C)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
-- Mở chương trình mẫu tại File / Examples / MAKERLABVN / Sensor / MKE-M01_Single_Led hoặc [tải chương trình mẫu tại đây](https://github.com/thanhtam18/MKE-M01-Single-Led-10mm-Module/tree/main/arduino)
+- Mở chương trình mẫu tại File / Examples / MAKERLABVN / Sensor / MKE-M01_Led hoặc [tải chương trình mẫu tại đây](https://github.com/makerlabvn/makerlabvnlib/tree/main/examples/Module/MKE-M01_Led)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
-- Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối mạch Led tại cổng [A3] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
+- Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối mạch Led tại cổng [D11] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
 ### Hướng dẫn lập trình với mBlock (kéo thả khối)
 
@@ -72,16 +72,16 @@ Digital In:
 - Thêm Device "MakerEdu Creator" by MakerEduVN
 - Thêm Extension "Upload Mode Broadcast" by mBlock Official
 - Thêm Extension "MakerEdu Hardware" by MakerEduVN
-- Mở [chương trình mẫu tại đây](https://github.com/thanhtam18/MKE-M01-Single-Led-10mm-Module/tree/main/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
-- Kết nối mạch Led với cổng [A3] và màn hình LCD vào cổng [I2C] trên MakerEdu Creator, cấp nguồn qua cổng USB của MakerEdu Creator để thấy chương trình hoạt động.
+- Mở [chương trình mẫu tại đây](https://github.com/makerlabvn/MKE-M01-Single-Led-10mm-Module/tree/main/mBlock5), kết nối MakerEdu Creator với máy tính và nạp chương trình.
+- Kết nối mạch Led với cổng [D11] và màn hình LCD vào cổng [I2C] trên MakerEdu Creator, cấp nguồn qua cổng USB của MakerEdu Creator để thấy chương trình hoạt động.
 
 
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 
 - Khởi động phần mềm MakeCode theo hướng dẫn.
 - Cài đặt Extension MakerEdu Hardware trên MadeCode theo đường link sau: [https://github.com/makerlabvn/MakerEdu_Hardware](https://github.com/makerlabvn/MakerEdu_Hardware)
-- Mở [chương trình mẫu tại đây](https://github.com/thanhtam18/MKE-M01-Single-Led-10mm-Module/tree/main/microbit), kết nối Micro:bit với máy tính và nạp chương trình.
-- Kết nối mạch Micro:bit với MakerEdu Shield, kết nối mạch Led tại cổng [P3] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của MakerEdu Shield để thấy chương trình hoạt động.
+- Mở [chương trình mẫu tại đây](https://github.com/makerlabvn/MKE-M01-Single-Led-10mm-Module/tree/main/microbit), kết nối Micro:bit với máy tính và nạp chương trình.
+- Kết nối mạch Micro:bit với MakerEdu Shield, kết nối mạch Led tại cổng [P1] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của MakerEdu Shield để thấy chương trình hoạt động.
 
 ## Hỗ trợ và liên hệ:
 
