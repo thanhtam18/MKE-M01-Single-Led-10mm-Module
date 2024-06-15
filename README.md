@@ -27,7 +27,7 @@ Mạch led đơn MKE-M01 10mm single LED module thuộc hệ sinh thái phần c
 
 ## Kích thước sản phẩm
 
-![MKE_S01_Ultrasonic](/image/MKE_M01_Single_Led_03.JPG)
+![MKE_S01_Ultrasonic](/image/MKE_M01_Single_Led_03.jpg)
 
 ## Các chân tín hiệu
 
@@ -80,7 +80,7 @@ Digital In:
 
 - Khởi động phần mềm MakeCode theo hướng dẫn.
 - Cài đặt Extension MakerEdu Hardware trên MadeCode theo đường link sau: [https://github.com/makerlabvn/MakerEdu_Hardware](https://github.com/makerlabvn/MakerEdu_Hardware)
-- Mở [chương trình mẫu tại đây](/microbit), kết nối Micro:bit với máy tính và nạp chương trình.
+- Mở [chương trình mẫu tại đây](https://github.com/thanhtam18/MKE-M01-Single-Led-10mm-Module/tree/main/microbit), kết nối Micro:bit với máy tính và nạp chương trình.
 - Kết nối mạch Micro:bit với MakerEdu Shield, kết nối nút nhấn tại cổng [P3] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của MakerEdu Shield để thấy chương trình hoạt động.
 
 ## Hỗ trợ và liên hệ:
